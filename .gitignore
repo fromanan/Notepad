@@ -1,0 +1,26 @@
+.vs/
+.idea/
+
+[Bb]in/
+[Oo]bj/
+
+*[Bb]uilds/
+*[Bb]uilds/*
+
+**.log
+
+# NuGet Packages
+*.nupkg
+
+# The packages folder can be ignored because of Package Restore
+**/packages/*
+
+# except build/, which is used as an MSBuild target.
+!**/packages/build/
+
+# Uncomment if necessary however generally it will be regenerated when needed
+
+#!**/packages/repositories.config
+*.swp
+
+**.DotSettings.user
